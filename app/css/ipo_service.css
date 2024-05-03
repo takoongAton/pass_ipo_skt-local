@@ -89,9 +89,9 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 .header_wrap nav ul.header_nav {display:flex; justify-content:center; align-items:center; border-bottom:0.5px solid #D8D8D8;}
 .header_wrap nav ul.header_nav li {}
 .header_wrap nav ul.header_nav li button {position:relative; padding:0 12px;}
-.header_wrap nav ul.header_nav li button span {display:block; position:relative; font-size:18px; padding:11px 0 10px; line-height:27px;}
+.header_wrap nav ul.header_nav li button span {display:block; position:relative; font-size:18px; padding:11px 0 10px; color:#505050; line-height:27px; font-weight:500;}
 .header_wrap nav ul.header_nav li button.active {font-weight:bold;}
-.header_wrap nav ul.header_nav li button.active span {}
+.header_wrap nav ul.header_nav li button.active span {color:#222;}
 .header_wrap nav ul.header_nav li button.active span::before {content:""; display:block; position:absolute; bottom:0; left:0; width:100%; height:2px; background-color:#000;}
 /* // 공통 상단 메뉴 */
 
@@ -220,7 +220,7 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 /* home, ipo일정 일정 */
 div.ipo_date_list {}
 div.ipo_date_list strong.date {display:block; padding:14px 0 8px; color:#888888; font-size:12px; line-height:18px;}
-div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
+div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 4px rgba(0,0,0,0.06);}
 .ipo_item {display:flex; position:relative; justify-content:space-between; align-items:flex-start; gap:12px; padding:16px; background-color:#fff;}
 .ipo_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ipo_item + .ipo_item {border-top:1px solid #F0F0F0;}
