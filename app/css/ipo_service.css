@@ -105,10 +105,14 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 
 
 /* home notice */
-.main_notice {display:flex; padding:20px 18px;}
-.main_notice div {position:relative; width:100%; text-align:center; color:#999999; font-size:12px;}
+.main_notice {display:flex; justify-content:center; align-items:center; padding:16px 18px;}
+.main_notice div {position:relative; text-align:center; padding:0 13px; color:#999999; font-size:12px;}
 .main_notice div + div::before {content:""; display:block; position:absolute; top:50%; left:0; width:1px; height:10px; background-color:#999999; transform:translate(-50%,-50%);}
-.main_notice div span {display:block; padding:12px 0; color:#999; font-size:12px; line-height:12px;}
+
+.main_notice div button {display:inline-flex; align-items:center; gap:4px; width:auto; padding:4px 0;}
+.main_notice div button span.ico {display:inline-block;}
+.main_notice div button span.ico img {width:auto; height:20px;}
+.main_notice div button span.txt {display:block; color:#999; font-size:12px; line-height:20px;}
 /* // home notice */
 
 
@@ -218,16 +222,17 @@ div.ipo_date_list {}
 div.ipo_date_list strong.date {display:block; padding:14px 0 8px; color:#888888; font-size:12px; line-height:18px;}
 div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
 .ipo_item {display:flex; position:relative; justify-content:space-between; align-items:flex-start; gap:12px; padding:16px; background-color:#fff;}
-.ipo_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
+.ipo_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ipo_item + .ipo_item {border-top:1px solid #F0F0F0;}
 .ipo_item div.thum {}
 .ipo_item div.thum span {display:block; width:60px; height:60px; border-radius:8px;}
 .ipo_item div.thum span img {}
 .ipo_item div.txt_wrap {flex:1;}
 .ipo_item div.txt_wrap div.code_name {}
-.ipo_item div.txt_wrap div.code_name div {}
-.ipo_item div.txt_wrap div.code_name div strong.name {font-size:14px; line-height:20px; font-weight:bold;}
-.ipo_item div.txt_wrap div.code_name div span.status {}
+.ipo_item div.txt_wrap div.code_name div {display:flex; align-items:center; gap:4px;}
+.ipo_item div.txt_wrap div.code_name div strong.name {display:inline-block; font-size:14px; line-height:20px; font-weight:bold;}
+.ipo_item div.txt_wrap div.code_name div span.status {display:inline-block;}
+.ipo_item div.txt_wrap div.code_name div span.status img {display:block; width:auto; height:18px;}
 .ipo_item div.txt_wrap div.code_name span.code {display:block; padding-bottom:2px; color:#969696; font-size:10px; line-height:15px;}
 .ipo_item div.txt_wrap div.info {padding-top:4px;}
 .ipo_item div.txt_wrap div.info dl {display:flex; align-items:flex-start; font-size:12px; gap:6px;}
@@ -236,7 +241,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
 .ipo_item div.txt_wrap div.info dl dd {color:#000; line-height:18px;}
 .ipo_item div.txt_wrap div.info dl dd div + div {margin-top:4px;}
 .ipo_item div.txt_wrap div.info dl dd button {width:auto;}
-.ipo_item div.txt_wrap div.info dl dd button span {color:#000; border-bottom:1px solid #000;}
+.ipo_item div.txt_wrap div.info dl dd button span {color:#000;}
 /* home, ipo일정 일정 */
 
 
@@ -244,7 +249,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
 /* 기업분석 홈 */
 /* 기업분석 목록 */
 .ca_item {display:flex; position:relative; justify-content:space-between; align-items:flex-start; gap:12px; padding:16px; background-color:#fff;}
-.ca_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
+.ca_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ca_item + .ca_item {border-top:1px solid #F0F0F0;}
 .ca_item div.thum {}
 .ca_item div.thum span {display:block; width:60px; height:60px; border-radius:100px; overflow:hidden;}
@@ -376,6 +381,9 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
 .lead_manager li button {display:inline-flex; justify-items: flex-end; align-items:center; gap:4px; width:auto;}
 .lead_manager li button span.ico {display:inline-block; width:16px; height:16px;}
 .lead_manager li button span.txt {display:inline-block; font-size:12px; line-height:1.5em; text-decoration:underline;}
+
+.lead_manager.list {padding-top:0 !important; padding-bottom:0 !important;}
+.lead_manager.list li {text-align:left;}
 /* // 주간사 목록 */
 
 
@@ -395,10 +403,15 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden;}
 /* // 홈 배너 */
 
 /* 홈 혜택 플러스 */
-.benefit_plus_wrap {padding:0 20px;}
+.benefit_plus_wrap {padding:0 20px 20px;}
 .benefit_plus_wrap div.tit {height:50px;}
 .benefit_plus_wrap div.tit strong {display:block; padding:13px 0; font-size:16px; line-height:1.5em;}
 /* // 홈 혜택 플러스 */
+
+.benefit_bnr_list {position:relative; border-radius:8px; overflow:hidden; font-size:0;}
+.main_benefit_dot {display:flex; position:absolute; top:10px; right:10px; gap:2px}
+.main_benefit_dot li button {width:6px; height:6px; background-color:rgba(255,255,255,0.5); border-radius:10px; overflow:hidden; transition:width 0.2s ease-in-out;}
+.main_benefit_dot li.slick-active button {width:10px; background-color:#fff;}
 
 /* 홈 더보기 */
 .home_date_more {margin-top:20px; }
