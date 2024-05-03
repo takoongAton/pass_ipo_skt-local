@@ -181,7 +181,7 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 	position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); background-color:#fff; border-radius:0.375em; color:inherit; z-index:1000; overflow-y:auto; box-shadow:0 1px 2px rgba(0,0,0,0.2);
 }
 
-.layer.alert .layer_inner .layer_content {padding:36px 18px;}
+.layer.alert .layer_inner .layer_content {padding:20px;}
 
 .layer.alert .layer_content span.icon {display:inline-block; width:54px; height:54px; margin-bottom:20px;}
 .layer.alert .layer_content div.tit {font-size:18px; line-height:27px; font-weight:700; word-break:keep-all;}
@@ -203,15 +203,15 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 
 
 /* 레이어 팝업 하단 버튼 공통 */
-.layer .btn_group {display:flex; justify-content:space-between; border-top:0.5px solid #e7e7e7;}
-.layer .btn_group div {width:100%;}
-.layer .btn_group div button {height:3.75em;}
+.layer .btn_group {display:flex; justify-content:space-between;}
+.layer .btn_group div {width:100%; padding:0 20px 20px;}
+.layer .btn_group div button {height:50px; background-color:#222; border-radius:12px;}
 .layer .btn_group div button.next {color:#ff3a4a; font-weight:bold;}
 .layer .btn_group div button.prev,
 .layer .btn_group div button.back,
 .layer .btn_group div button.cancel,
 .layer .btn_group div button.close {color:#000;}
-.layer .btn_group div button span {display:block; font-size:1.125em;}
+.layer .btn_group div button span {display:block; color:#fff; font-size:16px; line-height:26px;}
 /* // 레이어팝업 */
 
 
