@@ -380,7 +380,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .lead_manager li + li {padding-top:8px;}
 .lead_manager li button {display:inline-flex; justify-items: flex-end; align-items:center; gap:4px; width:auto;}
 .lead_manager li button span.ico {display:inline-block; width:16px; height:16px;}
-.lead_manager li button span.txt {display:inline-block; font-size:12px; line-height:1.5em; text-decoration:underline;}
+.lead_manager li button span.txt {display:inline-block; color:#000; font-size:12px; line-height:1.5em; text-decoration:underline;}
 
 .lead_manager.list {padding-top:0 !important; padding-bottom:0 !important;}
 .lead_manager.list li {text-align:left;}
