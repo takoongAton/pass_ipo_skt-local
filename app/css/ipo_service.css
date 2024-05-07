@@ -252,7 +252,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ca_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:16px; height:16px; margin-top:-8px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ca_item + .ca_item {border-top:1px solid #F0F0F0;}
 .ca_item div.thum {}
-.ca_item div.thum span {display:block; width:40px; height:40px; border-radius:100px; overflow:hidden;}
+.ca_item div.thum span {display:block; width:20px; height:20px; border-radius:100px; overflow:hidden;}
 .ca_item div.thum span img {}
 .ca_item div.txt_wrap {flex:1;}
 .ca_item div.txt_wrap div.code_name {}
