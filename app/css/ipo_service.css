@@ -398,7 +398,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 
 /* 홈 배너 */
 .home_bnr {padding:0 20px;}
-.home_ipo_wrap {padding:0 20px;}
+.home_ipo_wrap {padding:0 20px 20px;}
 .home_ipo_wrap div.tit strong {display:block; height:50px; padding:13px 0; color:#000; font-size:16px; line-height:1.5em;}
 /* // 홈 배너 */
 
