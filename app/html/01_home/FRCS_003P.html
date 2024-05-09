@@ -55,63 +55,69 @@
 				<div class="content_mid">
 
 					<div class="guide_wrap">
-						
-						<!-- <div class="guide_content">
-							<div class="guide_wrap_slick">
-								<div class="guide_slick">
-									<div class="guide_item">
-										<div class="tit"><strong>보안 검사</strong></div>
-										<div class="img">
-											<img src="../../images/security/img_app_safe.png" alt="이미지">
+
+						<div class="guide_content_wrap">
+							<div class="guide_top">
+								<div class="guide_top_txt">
+									<p>이해하기 쉽고 편하게 따라할 수 있는 공모주정보 서비스를 이용해 보세요. </p>
+								</div>
+							</div>
+							<!-- // guide_top -->
+
+							<div class="guide_mid">
+								<div class="guide_wrap_slick">
+									<div class="guide_slick">
+										<div class="guide_item">
+											<div class="img img01">
+												<img src="../../images/home/img_instruct01.png" alt="이미지">
+												<span class="img01_01"><img src="../../images/home/img_instruct01_01.png" alt="이미지1_1"></span>
+											</div>
+											<div class="txt_wrap">
+												<strong>IPO일정 한눈에 확인 가능</strong>
+												<p>계좌 : 공모주 청약을 위한 주간사 증권계좌 준비 기간<br />
+													청약 : 주간사 증권계좌에 청약 증거금 입금 후 청약 신청<br />
+													상장 : 배정 받은 주식 매매 가능</p>
+											</div>
 										</div>
-										<div class="txt_wrap">
-											<strong>보안검사를 통해 감지된 위험 알림</strong>
-											<p>단말 보안상태, RAM최적화,<br />
-												설치된 App의 위험 여부를 확인해 보세요.</p>
+										
+										<div class="guide_item">
+											<div class="img img02">
+												<img src="../../images/home/img_instruct02.png" alt="이미지">
+												<span class="img02_01"><img src="../../images/home/img_instruct02_01.png" alt="이미지2_1"></span>
+												<span class="img02_02"><img src="../../images/home/img_instruct02_02.png" alt="이미지2_2"></span>
+											</div>
+											<div class="txt_wrap">
+												<strong>기업분석을 통해<br />
+													상장 후수익률 확인 가능</strong>
+												<p>상장 종목 : 공모가 대비 시가, 종가 매도 수익률 확인<br />
+													상장예정종목 : 상장예정일, 공모가 확인</p>
+											</div>
 										</div>
-									</div>
-									
-									<div class="guide_item">
-										<div class="tit"><strong>네트워크 검사</strong></div>
-										<div class="img">
-											<img src="../../images/network/img_wifi_safe.png" alt="이미지">
-										</div>
-										<div class="txt_wrap">
-											<strong>네트워크 보안 상태 알림</strong>
-											<p>공공, 개인 Wi-Fi 위험도 검사하고<br />
-												위험에 노출된 Wi-Fi 정보 확인해 보세요</p>
-										</div>
-									</div>
-									
-									<div class="guide_item">
-										<div class="tit"><strong>웹 검사</strong></div>
-										<div class="img">
-											<img src="../../images/web/img_link_danger.png" alt="이미지">
-										</div>
-										<div class="txt_wrap">
-											<strong>실시간 탐지를 통해 위험한 링크 알림</strong>
-											<p>URL 검사를 통해 링크의 위험 요소 확인하고<br />
-												세이프브라우징, 스미싱탐지를 통해<br />
-												위험한 링크를 실시간으로 탐지해 보세요.<br />
-												(iOS의 경우 스미싱 탐지 미 제공)</p>
-										</div>
-									</div>
-		
-									<div class="guide_item">
-										<div class="tit"><strong>보안 사고 예방</strong></div>
-										<div class="img">
-											<img src="../../images/more/img_insurance.png" alt="이미지">
-										</div>
-										<div class="txt_wrap">
-											<strong>사고 후 보상까지 사후 관리 기능 제공</strong>
-											<p>보상보험을 통해 피싱으로 인한 피해 발생 예방하고,<br />
-												0505 안심번호 발급을 통해<br />
-												내 휴대폰번호가 노출되지 않게 관리해 보세요.</p>
+										
+										<div class="guide_item">
+											<div class="img img03">
+												<img src="../../images/home/img_instruct03.png" alt="이미지">
+												
+												<span class="img03_02"><img src="../../images/home/img_instruct03_02.png" alt="이미지3_2"></span>
+												<span class="img03_01"><img src="../../images/home/img_instruct03_01.png" alt="이미지3_1"></span>
+											</div>
+											<div class="txt_wrap">
+												<strong>기업 상세 분석을 통해 종목에 대한<br />
+													궁금증 해결 가능</strong>
+												<p>종목에 대한 투자전략, 투자포인트, 투자의견 제공</p>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div> -->
+							<!-- // guide_mid -->
+
+							<div class="guide_btm">
+
+							</div>
+							<!-- // guide_btm -->
+							
+						</div>
 					</div>
 					<!-- // guide_wrap -->
 
@@ -164,17 +170,6 @@ $(document).ready(function(){
 	}
 	guideSlick();
 })
-/* 공지사항, 자주 묻는 질문 */
-let noticeWrap = document.querySelector(".notice_arcodian_wrap")
-if(noticeWrap) {
-	let listItems = document.querySelectorAll(".list .item");
-	listItems.forEach(function(item){
-		item.addEventListener("click", function(){
-			item.classList.toggle("active");
-		})
-	})
-}
-/* // 공지사항, 자주 묻는 질문 */
 
 </script>
 
