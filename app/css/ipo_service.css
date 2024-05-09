@@ -497,11 +497,11 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 	animation-name: identifier2_2; animation-duration: 0.3s; animation-delay:0.6s; animation-fill-mode:forwards;
 }
 
-.guide_content_wrap .guide_mid div.img span.img03_01 {top:37.85714%; left:28.33333%; width:21.666666%; opacity:0.4;}
+.guide_content_wrap .guide_mid div.img span.img03_01 {top:33.85714%; left:31.33333%; width:21.666666%; opacity:0.4;}
 .guide_content_wrap .guide_mid .slick-active div.img span.img03_01 {
 	animation-name: identifier3_1; animation-duration: 0.3s; animation-delay:0.4s; animation-fill-mode:forwards;
 }
-.guide_content_wrap .guide_mid div.img span.img03_02 {top:36.78571%; left:46.666666%; width:28.61111%; opacity:0.4;}
+.guide_content_wrap .guide_mid div.img span.img03_02 {top:44.78571%; left:43.666666%; width:28.61111%; opacity:0.4;}
 .guide_content_wrap .guide_mid .slick-active div.img span.img03_02 {
 	animation-name: identifier3_2; animation-duration: 0.3s; animation-delay:0.6s; animation-fill-mode:forwards;
 }
@@ -531,11 +531,11 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 }
 
 @keyframes identifier3_1 {
-0% {top:37.85714%; left:28.33333%; width:21.666666%; border-radius:0px; box-shadow:0 3px 6px rgba(0,0,0,0.0); opacity:0.4;}
+0% {top:33.85714%; left:31.33333%; width:21.666666%; border-radius:0px; box-shadow:0 3px 6px rgba(0,0,0,0.0); opacity:0.4;}
 100% {top:25%; left:14.72222%; width:34.72222%; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.16); opacity:1;}
 }
 @keyframes identifier3_2 {
-0% {top:36.78571%; left:46.666666%; width:28.61111%; border-radius:0px; box-shadow:0 3px 6px rgba(0,0,0,0.0); opacity:0.4;}
+0% {top:44.78571%; left:43.666666%; width:28.61111%; border-radius:0px; box-shadow:0 3px 6px rgba(0,0,0,0.0); opacity:0.4;}
 100% {top:32.14285%; left:38.88888%; width:43.88888%; border-radius:8px; box-shadow:0 3px 6px rgba(0,0,0,0.16); opacity:1;}
 }
 /* // 이용안내 */
