@@ -1,42 +1,5 @@
 @charset "utf-8";
 
-:root {
-  --main-color: #009ddf;
-  --main-disibled-color: #859296;
-  --main-bg-color: #ecf0f1;
-  --em-color: #ff5571;
-  --required-color: #ff6060;
-  --border-color: #aeaeae;
-  --line-color: #aeaeae;
-  --btn-color: #212121;
-  --btn-dim-color: #d4d4d4;
-
-  --color-safe:#1ea82c;
-  --color-care:#fcaa33;
-  --color-caution:#fcaa33;
-  --color-warring :#ed1e19;
-  --color-danger :#ed1e19;
-  --color-check : #000;
-}
-
-
-/* 안전,주의,위험 폰트 컬러 전용 */
-.c_safe {color:var(--color-safe);}
-.c_caution {color:var(--color-caution);}
-.c_danger {color:var(--color-danger);}
-.c_check {color:var(--color-check);}
-/* // 안전,주의,위험 폰트 컬러 전용 */
-
-
-.bg_alert {display:inline-flex; align-items:center; height:18px; margin-left:4px; padding:0px 8px; background-color:#f9f9f9; border-radius:10px; color:#fff; font-size:10px; line-height:1em; font-weight:bold; overflow:hidden;}
-.bg_alert.iOS {padding-top:1px;}
-.bg_alert.AOS {align-items:baseline; padding-top:3.5px;}
-.bg_safe {background-color:var(--color-safe);}
-.bg_caution {background-color:var(--color-caution);}
-.bg_danger {background-color:var(--color-danger);}
-.bg_check {background-color:var(--color-check);}
-
-
 /* 가로 스크롤 형식 공통 */
 .scroll-wrapper {overflow-y:hidden; overflow-x:auto; -webkit-overflow-scrolling:touch;}
 .scroll-wrapper::-webkit-scrollbar {display:none !important;}
@@ -98,9 +61,6 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 
 /* 공통 페이지 타이틀 */
 .webview_lnb_wrap {position:-webkit-sticky; position:sticky; top:0; left:0; z-index:10; padding:0 16px 16px; background-color:#fff;}
-.webview_lnb_wrap .inner_wrap {}
-.webview_lnb_wrap .inner_wrap .page_tit {}
-
 
 
 
@@ -141,6 +101,7 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 .error button.btn_test {width:100%; height:48px; margin-top:60px; background-color:#333; border-radius:6px;}
 .error button.btn_test span {color:#fff;}
 /* // 네트워크 오류 등 */
+
 
 /* toTop */
 .toTop {position:fixed; right:17px; bottom:-30px; width:36px; height:48px; background-color:#fff; border-radius:10px; opacity:0; transition:0.15s all ease-in-out; z-index:1000; text-indent:-1000em; overflow:hidden;}
