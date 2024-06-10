@@ -11,6 +11,7 @@
 	
 	<!-- css -->
 	<link rel="stylesheet" href="../../css/reset.css" />
+	<link rel="stylesheet" href="../../css/slick.css" />
 	<link rel="stylesheet" href="../../css/ipo_service.css" />
 </head>
 <body>
@@ -20,33 +21,41 @@
 	<div class="header_wrap">
 		<div class="temp">
 			<button type="button"><span><img src="../../images/temp/back_btn.png" alt="이전"></span></button>
-			<h1>공보주정보</h1>
-			<!-- <button type="button"><span><img src="../../images/temp/btn_top_more.png" alt="더보기"></span></button> -->
+			<h1>공모주정보</h1>
 		</div>
 		<!-- // temp 삭제 -->
+
+		<nav>
+			<ul class="header_nav">
+				<li class="item"><button type="button"><span>홈</span></button></li>
+				<li class="item"><button type="button"><span>IPO 일정</span></button></li>
+				<li class="item"><button type="button"><span>기업분석</span></button></li>
+				<li class="item"><button type="button"><span>뉴스</span></button></li>
+				<li class="item"><button type="button" class="active"><span>알림</span></button></li>
+			</ul>
+		</nav>
+		<!-- // nav-->
 	</div>
 	<!-- // header_wrap -->
-
 
 	<div class="container_wrap">
 
 		<section class="container">
 
-			<div class="content_wrap divide">
+			<div class="content_wrap">
 
 				<div class="content_top">
 
 					<div class="error">
 						<div class="img"><img src="../../images/common/ico_notice.png" alt="아이콘"></div>
-						<div class="tit">서비스 이용에<br />
-							불편을 드려 죄송합니다.</div>
-						<p class="txt">서비스 연결이 원활하지 않으니<br />
+						<div class="tit">현재 알림 내역 제공이 불가합니다.</div>
+						<p class="txt">서비스 제공이 원활하지 않으니<br />
 							잠시 후 다시 시도해 주세요.</p>
 						<button type="button" class="refresh">
 							<span>새로고침</span>
 						</button>
 					</div>
-
+					
 				</div>
 				<!-- // content_top -->
 
@@ -74,13 +83,17 @@
 
 
 
+<div class="toTop active">
+	<button type="button"><span>위로</span></button>
+</div>
+
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- <script src="../../js/slick.js"></script> -->
-<script src="../../js/temp.js"></script>
+<script src="../../js/slick.js"></script>
 
+<script src="../../js/temp.js"></script>
 
 </body>
 </html>
