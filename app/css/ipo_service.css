@@ -324,7 +324,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ca_bnr button span {display:block; color:#fff; font-size:16px; line-height:26px; font-weight:bold;}
 /* // 투자전략 배너 */
 
-.sub_tit {color:var(--text-basic-default ); font-size:14px; line-height:22px;}
+.sub_tit {color:var(--text-basic-default ); font-size:15px; line-height:1.57142em;}
 
 /* 기업분석 상세 리스트형 텍스트 */
 .txt_list {}
