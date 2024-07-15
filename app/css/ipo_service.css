@@ -236,7 +236,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ipo_item div.txt_wrap div.code_name div strong.name {display:inline-block; color:var(--text-basic-default); font-size:15px; line-height:1.57142em; font-weight:bold;}
 .ipo_item div.txt_wrap div.code_name div span.status {display:inline-block;}
 .ipo_item div.txt_wrap div.code_name div span.status img {display:block; width:auto; height:18px;}
-.ipo_item div.txt_wrap div.code_name span.code {display:block; padding-bottom:2px; color:#969696; font-size:10px; line-height:15px;}
+.ipo_item div.txt_wrap div.code_name span.code {display:block; padding-bottom:2px; color:#969696; font-size:11px; line-height:1.5em;}	
 .ipo_item div.txt_wrap div.info {padding-top:4px;}
 .ipo_item div.txt_wrap div.info dl {display:flex; align-items:flex-start; font-size:13px; gap:0.5em;}
 .ipo_item div.txt_wrap div.info dl + dl {margin-top:4px;}
@@ -263,12 +263,12 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ca_item div.txt_wrap div.code_name div {display:flex; align-items:center; gap:4px;}
 .ca_item div.txt_wrap div.code_name div strong.name {color:var(--text-basic-default); font-size:14px; line-height:22px; font-weight:bold;}
 .ca_item div.txt_wrap div.code_name div span.status {}
-.ca_item div.txt_wrap div.code_name span.code {display:inline-block; padding-bottom:0px; color:var(--text-basic-caption); font-size:10px; line-height:15px;}
+.ca_item div.txt_wrap div.code_name span.code {display:inline-block; padding-bottom:0px; color:var(--text-basic-caption); font-size:11px; line-height:1.5em;}
 .ca_item div.txt_wrap div.info {padding-top:4px;}
-.ca_item div.txt_wrap div.info dl {display:flex; align-items:center; font-size:12px; gap:6px;}
+.ca_item div.txt_wrap div.info dl {display:flex; align-items:center; font-size:13px; gap:0.5em;}
 .ca_item div.txt_wrap div.info dl + dl {margin-top:4px;}
-.ca_item div.txt_wrap div.info dl dt {color:var(--text-basic-discription); line-height:18px;}
-.ca_item div.txt_wrap div.info dl dd {color:var(--text-basic-default); line-height:18px; font-weight:normal;}
+.ca_item div.txt_wrap div.info dl dt {color:var(--text-basic-discription); line-height:1.5em;}
+.ca_item div.txt_wrap div.info dl dd {color:var(--text-basic-default); line-height:1.5em; font-weight:normal;}
 .ca_item div.txt_wrap div.info dl dd span {}
 .ca_item div.txt_wrap div.info dl dd .plus {color:#FF3A4A;}
 .ca_item div.txt_wrap div.info dl dd .minus {color:#3A5BFF;}
