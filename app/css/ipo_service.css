@@ -230,7 +230,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ipo_item div.thum {}
 .ipo_item div.thum span {display:block; width:60px; height:60px; border-radius:8px; overflow:hidden;}
 .ipo_item div.thum span img {}
-.ipo_item div.txt_wrap {flex:1;}
+/* .ipo_item div.txt_wrap {flex:1;} */
 .ipo_item div.txt_wrap div.code_name {}
 .ipo_item div.txt_wrap div.code_name div {display:flex; align-items:center; gap:4px;}
 .ipo_item div.txt_wrap div.code_name div strong.name {display:inline-block; color:var(--text-basic-default); font-size:15px; line-height:1.57142em; font-weight:bold;}
