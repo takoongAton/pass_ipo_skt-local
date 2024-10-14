@@ -224,7 +224,7 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 div.ipo_date_list {}
 div.ipo_date_list strong.date {display:block; padding:1em 0 0.83333em; color:var(--text-basic-caption); font-size:13px; line-height:1.5em;}
 div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; box-shadow:0 2px 4px rgba(0,0,0,0.06);}
-.ipo_item {display:flex; position:relative; justify-content:space-between; align-items:flex-start; gap:12px; padding:14px 16px; background-color:#fff;}
+.ipo_item {display:flex; position:relative; /* justify-content:space-between; */ align-items:flex-start; gap:12px; padding:14px 16px; background-color:#fff;}
 .ipo_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:14px; height:14px; margin-top:-7px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ipo_item + .ipo_item {border-top:1px solid #F0F0F0;}
 .ipo_item div.thum {}
