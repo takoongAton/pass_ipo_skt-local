@@ -1,4 +1,4 @@
-/* 240503 */
+/* SKT 간소화 */
 @charset "utf-8";
 
 :root {
@@ -82,6 +82,7 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 /* 공통 임시 */
 
 /* 공통 상단 메뉴 */
+.header_wrap nav {position:relative;}
 .header_wrap nav ul.header_nav {display:flex; justify-content:flex-start; align-items:center; position:relative; padding:0 14px;}
 .header_wrap nav ul.header_nav::before {content:""; display:block; position:absolute; bottom:0; left:0; width:100%; height:0.5px; border-bottom:0.5px solid var(--border-line-teriary);}
 .header_wrap nav ul.header_nav li {}
@@ -90,6 +91,9 @@ input[data-switch]:checked + label:after {right:2px; transform:translate(0,-50%)
 .header_wrap nav ul.header_nav li button.active {font-weight:bold;}
 .header_wrap nav ul.header_nav li button.active span {color:var(--text-tab-focused); font-weight:500;}
 .header_wrap nav ul.header_nav li button.active span::before {content:""; display:block; position:absolute; bottom:0; left:0; width:100%; height:2px; background-color:#000;}
+.header_wrap nav div.fav {position:absolute; top:50%; right:18px; width:24px; height:24px; background-color:transparent; transform:translateY(-50%); overflow:hidden;}
+.header_wrap nav div.fav button.btn_fav {width:24px; height:24px; color:transparent; overflow:hidden; background:url('../images/common/ico_fav_gnb.png') no-repeat left top / 24px 24px;}
+.header_wrap nav div.fav button.btn_fav span {font-size:0;}
 /* // 공통 상단 메뉴 */
 
 
@@ -252,7 +256,7 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 .ca_item::before {content:""; display:block; position:absolute; top:50%; right:16px; width:14px; height:14px; margin-top:-7px; background:url('../images/common/ico_arrow_02_1.png') no-repeat left top / contain;}
 .ca_item + .ca_item {border-top:1px solid var(--border-line-primary);}
 .ca_item div.thum {}
-.ca_item div.thum span {display:block; width:20px; height:20px; border-radius:100px; overflow:hidden;}
+.ca_item div.thum span {display:block; width:60px; height:60px; border-radius:100px; overflow:hidden;}
 .ca_item div.thum span img {}
 .ca_item div.txt_wrap {flex:1;}
 .ca_item div.txt_wrap div.code_name {}
@@ -280,17 +284,28 @@ div.ipo_item_list {background-color:#fff; border-radius:8px; overflow:hidden; bo
 
 
 
+/* 즐겨찾기 */
+.fav_list_wrap {padding:0 18px 20px;}
+.fav_list_wrap div.tit {display:flex; align-items:center; height:48px;}
+.fav_list_wrap div.tit strong {display:block; color:#000; font-size:16px; line-height:24px; font-weight:bold;}
+.fav_list_wrap .fav_item_list {border-radius:6px; overflow:hidden;}
+/* // 즐겨찾기 */
 
 
 
 /* 기업분석 상세 타이틀 */
-.title_sub_detail {display:flex; justify-content:space-between; align-items:center; gap:12px; padding:10px 20px;}
+.title_sub_detail {display:flex; justify-content:space-between; align-items:center; gap:12px; position:relative; padding:10px 20px;}
 .title_sub_detail div.thum {width:48px; min-width:48px;}
 .title_sub_detail div.thum span {display:block; width:48px; height:48px; border-radius:100%; overflow:hidden;}
 .title_sub_detail div.txt_wrap {flex:1;}
 .title_sub_detail div.txt_wrap div.tit {}
 .title_sub_detail div.txt_wrap div.tit strong {display:inline-block; color:var(--text-basic-default); font-size:18px; line-height:26px; font-weight:500; letter-spacing:-0.04em;}
 .title_sub_detail div.txt_wrap span.code {display:block; margin-top:4px; color:var(--text-basic-discription); font-size:12px; line-height:18px;}
+.title_sub_detail div.fav {position:absolute; top:50%; right:18px; width:24px; height:24px;  transform:translateY(-50%);}
+.title_sub_detail div.fav label {display:block; width:24px; height:24px;}
+.title_sub_detail div.fav label input {position:absolute; top:0; left:0; opacity:0;}
+.title_sub_detail div.fav label input + span.checkmark {display:block; width:24px; height:24px; background:transparent url('../images/common/ico_fav_off.png') no-repeat left top / contain;}
+.title_sub_detail div.fav label input:checked + span.checkmark {background-image:url('../images/common/ico_fav_on.png');}
 /* // 기업분석 상세 타이틀 */
 
 
